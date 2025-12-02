@@ -1,0 +1,30 @@
+{
+    "name": "yourname/php-project",
+    "description": "Starter PHP project template",
+    "type": "project",
+
+    "require": {
+        "php": "^8.2",
+        "vlucas/phpdotenv": "^5.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
+    },
+
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 -t public",
+        "dump": "composer dump-autoload"
+    },
+
+    "config": {
+        "sort-packages": true
+    }
+}
+

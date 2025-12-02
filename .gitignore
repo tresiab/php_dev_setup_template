@@ -1,0 +1,68 @@
+# ============================
+#  PHP Development Template
+# ============================
+
+# --- Composer ---
+/vendor/
+/composer.lock
+
+# --- PHPStorm / IDEs ---
+.idea/
+.vscode/
+nbproject/
+*.swp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Cache ---
+cache/
+.tmp/
+*.cache
+
+# --- PHP Unit ---
+.phpunit.result.cache
+
+# --- Docker ---
+# Local Docker volumes should not be committed
+dev_env/mysql-data/
+dev_env/*/data/
+
+# Prevent accidental commits of env files
+.env
+.env.local
+.env.*.local
+
+# If you keep environment examples, allow them
+!.env.example
+
+# --- Node / Front-end (if ever used) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Build Artifacts ---
+/dist/
+/build/
+/public/build/
+
+# --- Temporary files ---
+*.bak
+*.tmp
+
+# --- User uploads (if added later) ---
+public/uploads/
+
+# --- PHPUnit coverage ---
+coverage/
+
+# --- PHP CS Fixer cache ---
+.php-cs-fixer.cache
+
+# --- Pretty PHP temp files ---
+.pretty-php-cache
